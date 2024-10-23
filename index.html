@@ -40,20 +40,25 @@
     </header>
 
     <main>
-      <a href="#" class="photo-1">
-        <img src="img/img-1.png" alt="igm-111" />
-      </a>
+      <div class="main-img">
+        <a href="#" class="photo-1">
+          <img src="img/img-1.png" alt="igm-111" />
+        </a>
+      </div>
       <div class="section-1">
         <h1>რატომ ვიყენებთ მას და საიდან მოდის ეს ტექსტი?</h1>
       </div>
     </main>
+
     <section>
       <div class="section-2">
         <a href="#"><img src="img/img-2.png" alt="img-2" /></a>
         <a href="#"><img src="img/img-3.png" alt="img-3" /></a>
-        <a href="#"><img src="img/img-4.png" alt="img-4" /></a>
-        <a href="#"><img src="img/img-5.png" alt="img-5" /></a>
-        <a href="#"><img src="img/img-6.png" alt="img-6" /></a>
+        <div class="section-2 dashoreb">
+          <a href="#"><img src="img/img-4.png" alt="img-4" /></a>
+          <a href="#"><img src="img/img-5.png" alt="img-5" /></a>
+        </div>
+        <a href="#" class="img-5"><img src="img/img-6.png" alt="img-6" /></a>
       </div>
 
       <article class="chaild-section">
@@ -69,6 +74,7 @@
           ამ ტექსტის უამრავი ვერსია გამოჩნდა, ზოგი შემთხვევით დაშვებული შეცდომის
           გამო, ზოგი კი — განზრახ, ხუმრობით. <br />
           <br />
+          <span>
           გავრცელებული მოსაზრებით, Lorem Ipsum შემთხვევითი ტექსტი სულაც არაა.
           მისი ფესვები ჯერკიდევ ჩვ. წ. აღ-მდე 45 წლის დროინდელი კლასიკური
           ლათინური ლიტერატურიდან მოდის. ვირჯინიის შტატში მდებარე ჰემპდენ-სიდნეის
@@ -95,15 +101,95 @@
           ახლოსაა რეალურთან. გენერირებული Lorem Ipsum არასოდეს არ არის
           გამეორებადი, შემთხვევითი სიტყვების ან ხუმრობების შემცველი.
         </p>
+      </span>
       </article>
     </section>
 
     <section class="section-3">
       <form>
-        <a href="index.html" class="button-2"
-          ><button type="button">დამატებითი ინფორმაცია</button></a
-        >
+        <div class="shua-botomi">
+          <a href="index.html" class="button-2"
+            ><button type="button">დამატებითი ინფორმაცია</button></a
+          >
+        </div>
       </form>
     </section>
+
+    <footer class="perent">
+      <div class="box1 item1">
+        <h1>კონტაქტი</h1>
+        <p>
+          Lorem Ipsum საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია. იგი
+          სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა მბეჭდავმა ამწყობ
+          დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა.
+        </p>
+
+        <p class="maps">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d190570.63418894136!2d44.80676375!3d41.72772215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440cd7e64f626b%3A0x61d084ede2576ea3!2z4YOX4YOR4YOY4YOa4YOY4YOh4YOY!5e0!3m2!1ska!2sge!4v1729411051574!5m2!1ska!2sge"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </p>
+      </div>
+
+      <div class="aitem-center">
+      <div class="box3 item2 font-row" id="bgcolor">
+      
+        <form method="get">
+          <label>სახელი გვარი </label>
+          <input type="text" />
+
+          <label for="email">ელ.ფოსტა</label>
+          <input
+            id="email"
+            name="email"
+            type="email"
+            placeholder="example@gmail.com"
+            required
+          />
+
+          <label for="phone">ტელეფონის ნომერი</label>
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="123-453-632"
+            required
+          />
+
+          <label for="story">შეტყობინება</label>
+          <textarea id="story" name="story" rows="8" cols="33"></textarea>
+          <div class="bolo-buttom-marjvin">
+            <button type="button" class="bolo-buttom">გაგზავნა</button>
+          </div>
+        </form>
+      </div>
+      </div>
+      <div class="box2 item3">
+        <div class="phone logo">
+          <img src="img/phone.svg" alt="phone" />
+        </div>
+        <a href="tel:+995 555 444 333">+995 555 444 333</a>
+        <div class="gmail img">
+          <img src="img/gmail.svg" alt="gmail" />
+        </div>
+        <a href="mailto:someone@example.com">example@gmail.com</a>
+      </div>
+      <div></div>
+      <div class="box4 item4">
+        <h3>ყველა უფლება დაცულია</h3>
+        <article class="art">
+          <p>დამზადებულია</p>
+          <img src="img/guli.svg" alt="guli" />
+          <p>-ით</p>
+          <img src="img/graund-logo.png" alt="logo" />
+        </article>
+      </div>
+    </footer>
   </body>
 </html>
