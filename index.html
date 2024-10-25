@@ -16,19 +16,19 @@
           <nav>
             <ul>
               <li>
-                <a href="#">მთავარი</a>
+                <a href="#" class="after">მთავარი</a>
               </li>
               <li>
-                <a href="#">ჩვენ შესახებ</a>
+                <a href="#" class="after">ჩვენ შესახებ</a>
               </li>
               <li>
-                <a href="#">სერვისები</a>
+                <a href="#" class="after">სერვისები</a>
               </li>
               <li>
-                <a href="#">პროექტები</a>
+                <a href="#" class="after">პროექტები</a>
               </li>
               <li>
-                <a href="#">პარტნიორები</a>
+                <a href="#" class="after">პარტნიორები</a>
               </li>
               <li>
                 <button type="button1">კონტაქტი</button>
@@ -115,80 +115,74 @@
       </form>
     </section>
 
-    <footer class="perent">
-      <div class="box1 item1">
-        <h1>კონტაქტი</h1>
-        <p>
-          Lorem Ipsum საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია. იგი
-          სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა მბეჭდავმა ამწყობ
-          დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა.
-        </p>
+    <footer>
+      <div class="container">
+        <div class="footer-grid">
+          <div class="map-block">
+            <h2>კონტაქტი</h2>
+            <p class="p-none">
+              Lorem Ipsum საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია.
+              იგი სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა მბეჭდავმა
+              ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა.
+            </p>
 
-        <p class="maps">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d190570.63418894136!2d44.80676375!3d41.72772215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440cd7e64f626b%3A0x61d084ede2576ea3!2z4YOX4YOR4YOY4YOa4YOY4YOh4YOY!5e0!3m2!1ska!2sge!4v1729411051574!5m2!1ska!2sge"
-            width="600"
-            height="450"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
-        </p>
-      </div>
-
-      <div class="aitem-center">
-      <div class="box3 item2 font-row" id="bgcolor">
-      
-        <form method="get">
-          <label>სახელი გვარი </label>
-          <input type="text" />
-
-          <label for="email">ელ.ფოსტა</label>
-          <input
-            id="email"
-            name="email"
-            type="email"
-            placeholder="example@gmail.com"
-            required
-          />
-
-          <label for="phone">ტელეფონის ნომერი</label>
-          <input
-            type="tel"
-            id="phone"
-            name="phone"
-            placeholder="123-453-632"
-            required
-          />
-
-          <label for="story">შეტყობინება</label>
-          <textarea id="story" name="story" rows="8" cols="33"></textarea>
-          <div class="bolo-buttom-marjvin">
-            <button type="button" class="bolo-buttom">გაგზავნა</button>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d190570.9834559701!2d44.64195485438455!3d41.72760440571412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440cd7e64f626b%3A0x61d084ede2576ea3!2sTbilisi!5e0!3m2!1sen!2sge!4v1729615567552!5m2!1sen!2sge"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
-        </form>
-      </div>
-      </div>
-      <div class="box2 item3">
-        <div class="phone logo">
-          <img src="img/phone.svg" alt="phone" />
+          <div class="form-class">
+            <form action="text">
+              <input type="text" placeholder="სახელი გავრი" name="user-name" />
+
+              <input
+                id="email"
+                name="email"
+                type="email"
+                placeholder="example@gmail.com"
+                required
+              />
+              <input
+                type="tel"
+                name="phone"
+                id="phone"
+                placeholder="123-456-789"
+              />
+              <textarea name="message" placeholder="enter message"></textarea>
+              <div class="button-parent submit">
+                <button type="submit">გაგზავნა</button>
+              </div>
+            </form>
+          </div>
         </div>
-        <a href="tel:+995 555 444 333">+995 555 444 333</a>
-        <div class="gmail img">
-          <img src="img/gmail.svg" alt="gmail" />
+        <div class="box2 item3">
+          <div class="phone logo">
+            <img src="img/phone.svg" alt="phone" />
+          </div>
+          <a href="tel:+995 555 444 333">+995 555 444 333</a>
+          <div class="gmail img">
+            <img src="img/gmail.svg" alt="gmail" />
+          </div>
+          <a href="mailto:someone@example.com">example@gmail.com</a>
         </div>
-        <a href="mailto:someone@example.com">example@gmail.com</a>
-      </div>
-      <div></div>
-      <div class="box4 item4">
-        <h3>ყველა უფლება დაცულია</h3>
-        <article class="art">
-          <p>დამზადებულია</p>
-          <img src="img/guli.svg" alt="guli" />
-          <p>-ით</p>
-          <img src="img/graund-logo.png" alt="logo" />
-        </article>
+        </div>
+        <div class="box4 item4 container">
+            <h3>ყველა უფლება დაცულია</h3>
+            <article class="art">
+              <p>დამზადებულია</p>
+              <img src="img/guli.svg" alt="guli" />
+              <p>-ით</p>
+              <img src="img/graund-logo.png" alt="logo" />
+            </article>
+          </div>
+          <div class="bolo-logo">
+            <h4>ყველა უფლება დაცულია</h4>
+            <a href="#"><img src="img/Group 126.png" alt="bolo logo"></a>
+          </div>
+        </div>
       </div>
     </footer>
   </body>
